@@ -1,0 +1,51 @@
+#services{
+    position: relative;
+    background-image: url("../../assets/bg-1.svg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#services .spotlight{
+    width: 100%;
+    bottom: 0;
+}
+#services .container{
+    position: relative;
+    z-index: 2;
+}
+#services .services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+#services .services{
+    padding: 30px 20px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 1.5rem;
+}
+
+#services .services .icon {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+#services .services .description{
+    font-size: 16px;
+    color: var(--text-muted);
+}
+#services .services .bottom {
+    margin-top: 20px;
+}
+#services .services .btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    background: transparent;
+    color: var(--primary);
+}
